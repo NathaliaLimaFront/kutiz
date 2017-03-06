@@ -1,0 +1,227 @@
+<header id="header">
+	<div id="top_bar" class="nav vertical-s">
+		<div class="wide_container">
+			<div class="center">
+				<div class="row">
+					<nav id="nav_left" class="clearfix left">
+						<aside id="easycontent_12" class="easycontent_12 easycontent ">
+							<div class="style_content block_content">
+								<p>☎ (11) 4063-4967 | (21) 4063-4967</p>
+							</div>
+						</aside>
+					</nav>
+					<nav id="nav_right" class="clearfix right">
+						<div class="cart left">
+		                    <a title="Carrinho de Compras" href="/checkout/#/cart" class="btn btn-default btn-block btn-mini-cart">
+		                        <div class="right">
+		                            <span class="badge bg-danger mini-cart-qty-admake">0</span>
+		                        </div>
+		                    </a>
+		                    <div id="mini-cart-admake-aux" class="hidden">
+		                        <vtex.cmc:miniCart />
+		                        <vtex.cmc:AmountItemsInCart />
+		                    </div>
+		                    <div id="mini-cart-admake" style="display: none;">
+		                        <div class="mini-cart-header"></div>
+		                        <div class="mini-cart-itens"></div>
+		                        <div class="mini-cart-footer">
+		                            <div class="mini-cart-totais">
+		                                <strong id="mini-cart-admake-total" class="pull-right"></strong>
+		                                <span>Total:</span>
+		                            </div>
+		                            <div class="mini-cart-botao">
+		                                <a href="/checkout/#/cart" class="btn btn-block btn-verde btn-finalizar-compra">ver carrinho</a>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>							
+						<a class="login top_bar_item" href="/account" rel="nofollow" title="Acesse/Cadastre-se">
+							<span class="header_item">
+								<vtex.cmc:welcomeMessage/>
+							</span>
+						</a>
+						<div id="layer_cart" class="layer_box">
+							<div class="layer_inner_box">
+								<div class="layer_product clearfix mar_b10">
+									<span class="cross" title="Fechar janela"></span>
+									<div class="product-image-container layer_cart_img"></div>
+									<div class="layer_product_info">
+										<span id="layer_cart_product_title" class="product-name"></span>
+										<span id="layer_cart_product_attributes"></span>
+										<div id="layer_cart_product_quantity_wrap">
+											<span class="layer_cart_label">Quantidade</span>
+											<span id="layer_cart_product_quantity"></span>
+										</div>
+										<div id="layer_cart_product_price_wrap">
+											<span class="layer_cart_label">Total</span>
+											<span id="layer_cart_product_price"></span>
+										</div>
+									</div>
+								</div>
+								<div id="pro_added_success" class="success">Produto adicionado ao seu carrinho de compras :)</div>
+								<div class="layer_details">
+									<div class="layer_cart_sum">
+										<span class="ajax_cart_product_txt_s unvisible"> Você tem <span class="ajax_cart_quantity">0</span> produtos no seu carrinho. </span>
+										<span class="ajax_cart_product_txt "> Você tem <span class="ajax_cart_quantity">0</span> produtos no seu carrinho. </span>
+									</div>
+									<div id="layer_cart_ajax_block_products_total" class="layer_cart_row">
+										<span class="layer_cart_label"> Total de produtos </span>
+										<span class="ajax_block_products_total price"></span>
+									</div>
+									<div id="layer_cart_ajax_cart_shipping_cost" class="layer_cart_row hidden">
+										<span class="layer_cart_label unvisible"> Total do frete(com impostos) </span>
+										<span class="ajax_cart_shipping_cost unvisible"> A ser determinado </span>
+									</div>
+									<div id="layer_cart_ajax_block_cart_total" class="layer_cart_row">
+										<span class="layer_cart_label"> Total </span>
+										<span class="ajax_block_cart_total price"></span>
+									</div>
+									<div class="button-container row">
+										<div class="col-xxs-12 col-xs-6">
+											<span class="continue btn btn-default btn-bootstrap" title="Continuar comprando"> Continuar comprando </span>
+										</div>
+										<div class="col-xxs-12 col-xs-6">
+											<a class="btn btn-default btn-bootstrap" href="/checkout/#/cart" title="Finalizar pedido" rel="nofollow"> Finalizar pedido </a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="crossseling"></div>
+						</div>
+						<div class="layer_cart_overlay layer_overlay"></div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="mobile_bar" class="animated fast">
+		<div class="center">
+			<div id="mobile_bar_container" class=" mobile_bar_center_layout">
+				<div id="mobile_bar_left">
+					<div id="mobile_bar_left_inner">
+						<a id="mobile_bar_menu_tri" class="mobile_bar_tri" href="javascript:;" rel="nofollow">
+							<i class="int-menu icon_btn icon-1x"></i>
+							<span class="mobile_bar_tri_text">Menu</span>
+						</a>
+					</div>
+				</div>
+				<div id="mobile_bar_center">
+					<a id="mobile_header_logo" href="/" title="Kutiz Beauté">
+						<span id="logoMob"></span>
+					</a>
+				</div>
+				<div id="mobile_bar_right">
+					<div id="mobile_bar_right_inner">
+						<a id="mobile_bar_cart_tri" href="javascript:;" rel="nofollow" title="Cart">
+							<div class="ajax_cart_bag">
+								<span class="ajax_cart_quantity amount_circle ">0</span>
+								<span class="int-cart"></span>
+							</div>
+						<span class="mobile_bar_tri_text">Cart</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div id="header_primary" class="animated fast">
+		<div class="wide_container">
+			<div class="center">
+				<div id="header_primary_row" class="row">
+					<div id="header_left" class="col-sm-12 col-md-3 clearfix">
+						<div id="search_block_top" class=" top_bar_item clearfix">
+							<vtex.cmc:fullTextSearchBox/>
+						</div>
+					</div>
+					<div id="header_center" class="col-sm-12 col-md-6">
+						<a id="logo_center" href="/" title="Kutiz Beauté"></a>
+					</div>
+					<div id="header_right" class="col-sm-12 col-md-3">
+						<div id="header_top" class="row">
+							<div id="header_top_right" class="col-sm-12 col-md-12 clearfix">
+								<aside id="easycontent_9" class="easycontent_9 easycontent ">
+									<div class="style_content block_content">
+										<p>
+											<a href="/envio-e-entrega">
+												<img src="/arquivos/gifdesconto.gif" width="200" height="90" />
+											</a>
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="menu">	
+		<div class="center">
+			<ul>
+				<li class="titleMenu">
+					<span>Marcas</span>
+					<div class="submenu" id="subMarcas">
+	                    <vtex.cmc:subMarcas />
+	                </div>						
+				</li>
+				<li class="titleMenu">
+					<a href="/tratamento/">Tratamento</a>
+	                <div class="submenu" id="subTratamento">
+	                    <vtex.cmc:subTratamento />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/cabelos/">Cabelos</a>
+	                <div class="submenu" id="subCabelos">
+	                    <vtex.cmc:subCabelos />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/solares/">Solares</a>
+	                <div class="submenu" id="subSolares">
+	                    <vtex.cmc:subSolares />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/perfumes/">Perfumes</a>
+	                <div class="submenu" id="subPerfumes">
+	                    <vtex.cmc:subPerfumes />
+	                </div>
+				</li>			
+				<li class="titleMenu">
+					<a href="/maquiagem/">Maquiagem</a>
+	                <div class="submenu" id="subMaquiagem">
+	                    <vtex.cmc:subMaquiagem />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/bebes-e-gestantes/">Bebês e Gestantes</a>
+	                <div class="submenu" id="subBebe">
+	                    <vtex.cmc:subBebe />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/homens/">Homens</a>
+	                <div class="submenu" id="subHomens">
+	                    <vtex.cmc:subHomens />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/presentes/">Presentes</a>
+	                <div class="submenu" id="subPresentes">
+	                    <vtex.cmc:subPresentes />
+	                </div>
+				</li>
+				<li class="titleMenu">
+					<a href="/especiais/">Especiais</a>
+	                <div class="submenu" id="subEspeciais">
+	                    <vtex.cmc:subEspeciais />
+	                </div>
+				</li>			
+				<li class="titleMenu">
+					<a href="https://www.kutiz.com.br/blog">Blog</a>
+				</li>
+			</ul>		
+		</div>
+	</section>
+</header>

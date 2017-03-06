@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+    <head>
+        <title> <vtex.cmc:searchTitle /> </title>
+        <vtex:metaTags/>
+        <vtex:template id="commonStyles" />
+    </head>
+    <body id="colecoes-page">
+        <div class="page">
+            <vtex:template id="Header" />
+            <div id="breadcrumb">
+                <div class="container">
+                    <vtex.cmc:breadCrumb />
+                </div>
+            </div>
+            <section class="container">
+                <div id="bannerColecao">
+                    <vtex:contentPlaceHolder id="bannerColecao" />
+                </div>
+                <div id="titleCategory">
+                    <vtex.cmc:searchTitle />
+                </div>
+                <div id="collections">
+                    <div class="prateleiraColecao">
+                        <vtex:contentPlaceHolder id="prateleiraColecao" />
+                    </div>
+                </div>
+            </section>
+            <vtex:template id="Footer" />
+        </div>
+    </body>
+    <vtex:template id="commonScripts" />
+</html>

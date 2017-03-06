@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+    <head>
+        <title>Kutiz</title>
+        <vtex:metaTags/>
+        <vtex:template id="commonStyles" />
+    </head>
+    <body id="home">
+        <div class="page">
+            <vtex:template id="Header" />   
+            <section class="container">
+                <div class="bannerPrincipal">
+                    <vtex:contentPlaceHolder id="bannerPrincipal" />
+                </div>
+                <div id="carrosselMarcas">
+                    <vtex:contentPlaceHolder id="carrosselMarcas" />
+                </div>
+                <div class="showcase-default showcase-owl">
+                    <vtex:contentPlaceHolder id="Ofertas" />
+                </div>
+            </section>
+            <vtex:template id="Footer" />        
+        </div>
+    </body>
+    <vtex:template id="commonScripts" />
+</html>

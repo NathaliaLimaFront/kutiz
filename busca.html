@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+    <head>
+        <title>Procurar</title>
+        <vtex:metaTags/>
+        <vtex:template id="commonStyles" />
+    </head>
+    <body id="busca-page">
+        <div class="page">
+            <vtex:template id="Header" />
+            <div id="breadcrumb">
+                <div class="container">
+                    <vtex.cmc:breadCrumb />
+                </div>
+            </div>
+            <section class="container">                
+                <div id="titleCategory">
+                    BUSCAR <vtex.cmc:searchTitle />
+                </div>                
+                <div id="collections">
+                    <div class="prateleiraDepartamento">
+                        <vtex.cmc:searchResult layout="ef3fcb99-de72-4251-aa57-71fe5b6e149f" itemCount="5" columnCount="5" />
+                    </div>
+                </div>
+            </section>
+            <vtex:template id="Footer" />
+        </div>
+    </body>
+    <vtex:template id="commonScripts" />
+</html>
